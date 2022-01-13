@@ -37,7 +37,6 @@ class ForgotPassword : AppCompatActivity() {
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Alert")
         if (fEmail.text!!.trim().isEmpty()) {
-
             builder.setMessage("Please enter email")
 
             builder.setPositiveButton("Ok", fun(dialog: DialogInterface, id: Int) {
